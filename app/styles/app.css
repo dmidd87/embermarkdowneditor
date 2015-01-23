@@ -1,3 +1,30 @@
-html, body {
-  margin: 20px;
+h2 {
+  font-family: 'Josefin Slab'
+}
+
+div {
+  font-family: 'Hind';
+}
+
+.markdown textarea {
+  height: 50em;
+  width: 50em;
+  outline: none;
+  resize: none;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.markdown {
+  float: left;
+  margin-right: 10px;
+}
+
+.html{
+  float: left;
+}
+
+.title {
+  text-align: center;
 }
